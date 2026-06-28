@@ -1,0 +1,31 @@
+# Environments
+env/
+venv/
+.env
+.venv
+phishfiner/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Project specific
+artifacts/
+prediction_artifacts/
+predictions/
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+.dockerignore
+Dockerfile
